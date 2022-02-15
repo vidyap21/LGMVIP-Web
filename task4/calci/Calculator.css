@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background :linear-gradient(rgb(255, 176, 189), rgb(255, 255, 255));
+}
+
+.container {
+  margin-left: 2em;
+  padding: 22px;
+  background: #c0c7ff;
+  border-radius: 10px;
+  box-shadow: 13px 13px 20px #363638, -13px -13px 20px #fde0ef;
+}
+
+.display #screen {
+  margin-bottom: 0.7em;
+  width: auto;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5em;
+  background: #faeef4;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #666565, inset -8px -8px 8px #f3e5e5;
+}
+
+.row button {
+  width: 60px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  transition: 0.1s;
+  background: #ffffff;
+  box-shadow: 3px 3px 5px #2750d620, -3px -3px 5px #524e45;
+}
+
+.row button:hover {
+  box-shadow: inset 3px 3px 5px #636364, inset -3px -3px 5px #000000;
+}
+
+#eval {
+  width: 135px;
+  font-size: 1.3rem;
+  background: #ffe91e;
+  color: #000;
+  box-shadow: inset 3px 3px 5px #f7cc55, inset -3px -3px 5px #fdbf4a;
+}
+
+#eval:hover {
+  box-shadow: inset 3px 3px 5px #fcedc6, inset -3px -3px 5px #35393a;
+}
+
+#ac {
+  background: #03f803;
+  color: rgb(10, 10, 10);
+}
+
+#ac:hover {
+  box-shadow: inset 3px 3px 5px #e9f1e9, inset -3px -3px 5px #343d34;
+}
+
+#ce {
+  background: #fc06be;
+  color: rgb(14, 13, 13);
+}
+
+#ce:hover {
+  box-shadow: inset 3px 3px 5px #ffaad0, inset -3px -3px 5px #0c0b0c;
+}
